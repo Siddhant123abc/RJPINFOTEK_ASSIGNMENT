@@ -26,4 +26,9 @@ public class EditandDeleteArticlePage {
 	{
 		deletearticlelink.click();
 	}
+	
+	public boolean isclicklinkEditArticle()
+	{
+		return editarticlelink.isEnabled();
+	}
 }

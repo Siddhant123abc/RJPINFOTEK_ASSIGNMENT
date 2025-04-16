@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-16T11:51:03 IST" name="Default suite" finished-at="2025-04-16T11:51:15 IST" duration-ms="11095">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-16T11:51:03 IST" name="Default test" finished-at="2025-04-16T11:51:15 IST" duration-ms="11095">
+      <class name="testRunner.CreateEditViewDeleteArticle_TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:03 IST" name="setUpClass" finished-at="2025-04-16T11:51:07 IST" duration-ms="3103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f3c7808]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T11:51:09 IST" duration-ms="2012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T11:51:10 IST" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T11:51:10 IST" duration-ms="471" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Article not present expected [SiddhantSiddSidd is testing] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Article not present expected [SiddhantSiddSidd is testing] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at stepdefinitions.CreateEditViewDeleteArticle_Ste3pRunner.user_select_an_article(CreateEditViewDeleteArticle_Ste3pRunner.java:101)
+at ✽.User select an article "SiddhantSiddSidd is testing"(file:///C:/workspace/ConduitCaseStrudy/src/test/resources/features/login_create_view_edit_delete_Article.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T11:51:11 IST" duration-ms="455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update an Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T11:51:12 IST" duration-ms="1255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete an Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.CreateEditViewDeleteArticle_TestRunner@73eb439a]" started-at="2025-04-16T11:51:12 IST" name="tearDownClass" finished-at="2025-04-16T11:51:15 IST" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.CreateEditViewDeleteArticle_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
